@@ -1,0 +1,15 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+.NewTask {
+    label{
+        font-size: 1.25rem;
+    }
+    input{
+        margin-left: 0.3em;
+    }
+    button {
+        margin-left: 0.3em;
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+    }
+}

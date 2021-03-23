@@ -1,0 +1,23 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+.Task-list{
+    h1{
+        border: solid 2px#17a2b8;
+        margin: 0 6em 1em;
+        border-radius: 7.5%;
+        color: #17a2b8;
+    }
+    li{
+        margin-bottom:0.5em;
+        .task-wrap{
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.25rem;
+            .action-btn{
+                margin-right:0.15em;
+                background-color: #17a2b8;
+                border-color: #17a2b8;
+            }
+        }
+    }
+}
